@@ -9,7 +9,7 @@ function clock() {
     let h = now.getHours()
     let m = now.getMinutes()
     let s = now.getSeconds()
-    let day = now.getDay()
+    let day = now.getDate()
     let mon = now.getMonth()
 
     let sAngle = s * 6
