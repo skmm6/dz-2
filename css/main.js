@@ -13,7 +13,7 @@ function clock() {
     let mon = now.getMonth()
 
     let sAngle = s * 6
-    let mAngle = m * 6 + s / 12
+    let mAngle = m * 6 + s / 10
     let hAngle = h * 30 + m / 2
     mon = mon + 1
 
